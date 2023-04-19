@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>github+hexo搭建个人博客</title>
+      <link href="/2023/04/18/blog/"/>
+      <url>/2023/04/18/blog/</url>
+      
+        <content type="html"><![CDATA[<h1 id="参考教程："><a href="#参考教程：" class="headerlink" title="参考教程："></a>参考教程：</h1><p><a href="https://zhuanlan.zhihu.com/p/60578464">使用 Hexo+GitHub 搭建个人免费博客教程</a></p><p><a href="https://docs.nexmoe.com/zh/v4.0/">NexMoe配置文档</a> </p><p><em><span id="more"></span></em></p><h1 id="步骤概要："><a href="#步骤概要：" class="headerlink" title="步骤概要："></a>步骤概要：</h1><ol><li>创建github仓库，仓库名【username】.github.io,可以通过github page访问,配置ssh密钥</li><li>本地安装Hexo博客程序</li><li>部署 Hexo 到 GitHub Pages</li><li>切换Nexmoe主题</li></ol><hr><p>弃坑Nexmoe，转Next</p><h1 id="NexT配置指南"><a href="#NexT配置指南" class="headerlink" title="NexT配置指南"></a>NexT配置指南</h1><p><a href="https://theme-next.iissnan.com/">中文文档</a></p><p><a href="https://zhuanlan.zhihu.com/p/144673816">https://zhuanlan.zhihu.com/p/144673816</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客建站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+            <tag> hexo </tag>
+            
+            <tag> github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
