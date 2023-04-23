@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>github+PicGo+Typora搭建图床</title>
+      <link href="/2023/04/23/%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/"/>
+      <url>/2023/04/23/%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>为了加速图片访问把图片压缩后放入图床，但是每次都只能单独操作太麻烦了，所以用github+Picgo实现批量操作，而且typora可以自动上传功能，十分方便</p><p><em><span id="more"></span></em></p><hr><h1 id="github配置"><a href="#github配置" class="headerlink" title="github配置"></a>github配置</h1><ol><li>新建仓库存储图片</li><li>申请github token</li></ol><p>Setting-&gt;Developer settings-&gt;Personal access tokens</p><p><img src="https://cdn.jsdelivr.net/gh/mangodog2/ImageHost/img/Snipaste_2023-04-23_19-16-36.jpg" alt="Snipaste_2023-04-23_19-16-36"></p><h1 id="Picgo配置"><a href="#Picgo配置" class="headerlink" title="Picgo配置"></a>Picgo配置</h1><ol><li>下载Picgo（<a href="https://github.com/Molunerfinn/PicGo/releases%EF%BC%89">https://github.com/Molunerfinn/PicGo/releases）</a></li><li>填入基本配置，设github为默认图床</li></ol><p>​<img src="https://cdn.jsdelivr.net/gh/mangodog2/ImageHost/img/Snipaste_2023-04-23_19-19-37.jpg" alt="Snipaste_2023-04-23_19-19-37"></p><blockquote><p>Picgo 文档</p><p><a href="https://picgo.github.io/PicGo-Doc/">https://picgo.github.io/PicGo-Doc/</a></p></blockquote><h1 id="Typora设置"><a href="#Typora设置" class="headerlink" title="Typora设置"></a>Typora设置</h1><ol><li><p>设置自动上传</p><p><img src="https://cdn.jsdelivr.net/gh/mangodog2/ImageHost/img/Snipaste_2023-04-23_19-20-43.jpg" alt="Snipaste_2023-04-23_19-20-43"></p></li></ol><hr><h1 id="图床测试"><a href="#图床测试" class="headerlink" title="图床测试"></a>图床测试</h1><p>放一些自己跑的ai图片</p><p><img src="https://cdn.jsdelivr.net/gh/mangodog2/ImageHost/img/13-40-ace283aa-3cb5-4970-92bd-287000f47440571472a6-7091-4776-99d3-c2ef5b123e59.jpg" alt="13-40-ace283aa-3cb5-4970-92bd-287000f47440571472a6-7091-4776-99d3-c2ef5b123e59"></p><p><img src="https://cdn.jsdelivr.net/gh/mangodog2/ImageHost/img/17-16-ace283aa-3cb5-4970-92bd-287000f474407684b179-c1d0-402e-a76d-812342db5f0e.jpg" alt="17-16-ace283aa-3cb5-4970-92bd-287000f474407684b179-c1d0-402e-a76d-812342db5f0e"></p><p><img src="https://cdn.jsdelivr.net/gh/mangodog2/ImageHost/img/19-56-ace283aa-3cb5-4970-92bd-287000f474406ce4310d-ddc8-4d0f-89e1-d8ef026408ff.jpg" alt="19-56-ace283aa-3cb5-4970-92bd-287000f474406ce4310d-ddc8-4d0f-89e1-d8ef026408ff"></p><p><img src="https://cdn.jsdelivr.net/gh/mangodog2/ImageHost/img/19-21-ace283aa-3cb5-4970-92bd-287000f474409a0d38c1-5888-47d0-a0e0-c814868637be.jpg" alt="19-21-ace283aa-3cb5-4970-92bd-287000f474409a0d38c1-5888-47d0-a0e0-c814868637be"></p><p><img src="https://cdn.jsdelivr.net/gh/mangodog2/ImageHost/img/19-41-ace283aa-3cb5-4970-92bd-287000f47440c4c3d386-07d6-4995-a5e8-eb43df99d553.jpg" alt="19-41-ace283aa-3cb5-4970-92bd-287000f47440c4c3d386-07d6-4995-a5e8-eb43df99d553"></p><p><img src="https://cdn.jsdelivr.net/gh/mangodog2/ImageHost/img/11-36-ace283aa-3cb5-4970-92bd-287000f4744015cccf04-127e-43c4-a3d9-c48922981434.jpg" alt="11-36-ace283aa-3cb5-4970-92bd-287000f4744015cccf04-127e-43c4-a3d9-c48922981434"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客建站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Typora </tag>
+            
+            <tag> PicGo </tag>
+            
+            <tag> github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>github+hexo搭建个人博客</title>
       <link href="/2023/04/18/blog/"/>
       <url>/2023/04/18/blog/</url>
@@ -20,11 +49,11 @@
       
         <tags>
             
+            <tag> github </tag>
+            
             <tag> 教程 </tag>
             
             <tag> hexo </tag>
-            
-            <tag> github </tag>
             
         </tags>
       

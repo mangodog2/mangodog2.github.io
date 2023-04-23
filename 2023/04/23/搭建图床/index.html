@@ -20,30 +20,40 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.15.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":true,"style":"mac"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="参考教程：使用 Hexo+GitHub 搭建个人免费博客教程 NexMoe配置文档">
+    <meta name="description" content="前言为了加速图片访问把图片压缩后放入图床，但是每次都只能单独操作太麻烦了，所以用github+Picgo实现批量操作，而且typora可以自动上传功能，十分方便">
 <meta property="og:type" content="article">
-<meta property="og:title" content="github+hexo搭建个人博客">
-<meta property="og:url" content="http://example.com/2023/04/18/blog/index.html">
+<meta property="og:title" content="github+PicGo+Typora搭建图床">
+<meta property="og:url" content="http://example.com/2023/04/23/%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/index.html">
 <meta property="og:site_name" content="Mango">
-<meta property="og:description" content="参考教程：使用 Hexo+GitHub 搭建个人免费博客教程 NexMoe配置文档">
+<meta property="og:description" content="前言为了加速图片访问把图片压缩后放入图床，但是每次都只能单独操作太麻烦了，所以用github+Picgo实现批量操作，而且typora可以自动上传功能，十分方便">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-04-18T12:37:53.613Z">
-<meta property="article:modified_time" content="2023-04-19T16:00:46.090Z">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/mangodog2/ImageHost/img/Snipaste_2023-04-23_19-16-36.jpg">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/mangodog2/ImageHost/img/Snipaste_2023-04-23_19-19-37.jpg">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/mangodog2/ImageHost/img/Snipaste_2023-04-23_19-20-43.jpg">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/mangodog2/ImageHost/img/13-40-ace283aa-3cb5-4970-92bd-287000f47440571472a6-7091-4776-99d3-c2ef5b123e59.jpg">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/mangodog2/ImageHost/img/17-16-ace283aa-3cb5-4970-92bd-287000f474407684b179-c1d0-402e-a76d-812342db5f0e.jpg">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/mangodog2/ImageHost/img/19-56-ace283aa-3cb5-4970-92bd-287000f474406ce4310d-ddc8-4d0f-89e1-d8ef026408ff.jpg">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/mangodog2/ImageHost/img/19-21-ace283aa-3cb5-4970-92bd-287000f474409a0d38c1-5888-47d0-a0e0-c814868637be.jpg">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/mangodog2/ImageHost/img/19-41-ace283aa-3cb5-4970-92bd-287000f47440c4c3d386-07d6-4995-a5e8-eb43df99d553.jpg">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/mangodog2/ImageHost/img/11-36-ace283aa-3cb5-4970-92bd-287000f4744015cccf04-127e-43c4-a3d9-c48922981434.jpg">
+<meta property="article:published_time" content="2023-04-23T11:05:21.872Z">
+<meta property="article:modified_time" content="2023-04-23T11:39:04.808Z">
 <meta property="article:author" content="Robert">
+<meta property="article:tag" content="Typora">
+<meta property="article:tag" content="PicGo">
 <meta property="article:tag" content="github">
-<meta property="article:tag" content="教程">
-<meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/mangodog2/ImageHost/img/Snipaste_2023-04-23_19-16-36.jpg">
 
 
-<link rel="canonical" href="http://example.com/2023/04/18/blog/">
+<link rel="canonical" href="http://example.com/2023/04/23/%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/2023/04/18/blog/","path":"2023/04/18/blog/","title":"github+hexo搭建个人博客"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/2023/04/23/%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/","path":"2023/04/23/搭建图床/","title":"github+PicGo+Typora搭建图床"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>github+hexo搭建个人博客 | Mango</title>
+<title>github+PicGo+Typora搭建图床 | Mango</title>
   
 
 
@@ -142,7 +152,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%95%99%E7%A8%8B%EF%BC%9A"><span class="nav-number">1.</span> <span class="nav-text">参考教程：</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%AD%A5%E9%AA%A4%E6%A6%82%E8%A6%81%EF%BC%9A"><span class="nav-number">2.</span> <span class="nav-text">步骤概要：</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#NexT%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97"><span class="nav-number">3.</span> <span class="nav-text">NexT配置指南</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#github%E9%85%8D%E7%BD%AE"><span class="nav-number">2.</span> <span class="nav-text">github配置</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Picgo%E9%85%8D%E7%BD%AE"><span class="nav-number">3.</span> <span class="nav-text">Picgo配置</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Typora%E8%AE%BE%E7%BD%AE"><span class="nav-number">4.</span> <span class="nav-text">Typora设置</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9B%BE%E5%BA%8A%E6%B5%8B%E8%AF%95"><span class="nav-number">5.</span> <span class="nav-text">图床测试</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -205,7 +215,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/04/18/blog/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/04/23/%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -218,12 +228,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="github+hexo搭建个人博客 | Mango">
+      <meta itemprop="name" content="github+PicGo+Typora搭建图床 | Mango">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          github+hexo搭建个人博客
+          github+PicGo+Typora搭建图床
         </h1>
 
         <div class="post-meta-container">
@@ -233,15 +243,9 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
+      
 
-      <time title="创建时间：2023-04-18 20:37:53" itemprop="dateCreated datePublished" datetime="2023-04-18T20:37:53+08:00">2023-04-18</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-04-20 00:00:46" itemprop="dateModified" datetime="2023-04-20T00:00:46+08:00">2023-04-20</time>
+      <time title="创建时间：2023-04-23 19:05:21 / 修改时间：19:39:04" itemprop="dateCreated datePublished" datetime="2023-04-23T19:05:21+08:00">2023-04-23</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -263,20 +267,37 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h1 id="参考教程："><a href="#参考教程：" class="headerlink" title="参考教程："></a>参考教程：</h1><p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/60578464">使用 Hexo+GitHub 搭建个人免费博客教程</a></p>
-<p><a target="_blank" rel="noopener" href="https://docs.nexmoe.com/zh/v4.0/">NexMoe配置文档</a> </p>
+        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>为了加速图片访问把图片压缩后放入图床，但是每次都只能单独操作太麻烦了，所以用github+Picgo实现批量操作，而且typora可以自动上传功能，十分方便</p>
 <p><em><span id="more"></span></em></p>
-<h1 id="步骤概要："><a href="#步骤概要：" class="headerlink" title="步骤概要："></a>步骤概要：</h1><ol>
-<li>本地安装博客环境（Node.js,git)</li>
-<li>创建github仓库，仓库名【username】.github.io,可以通过github page访问,配置ssh密钥</li>
-<li>本地安装Hexo博客程序</li>
-<li>部署 Hexo 到 GitHub Pages</li>
-<li>切换Nexmoe主题</li>
+<hr>
+<h1 id="github配置"><a href="#github配置" class="headerlink" title="github配置"></a>github配置</h1><ol>
+<li>新建仓库存储图片</li>
+<li>申请github token</li>
+</ol>
+<p>Setting-&gt;Developer settings-&gt;Personal access tokens</p>
+<p><img src="https://cdn.jsdelivr.net/gh/mangodog2/ImageHost/img/Snipaste_2023-04-23_19-16-36.jpg" alt="Snipaste_2023-04-23_19-16-36"></p>
+<h1 id="Picgo配置"><a href="#Picgo配置" class="headerlink" title="Picgo配置"></a>Picgo配置</h1><ol>
+<li>下载Picgo（<a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/PicGo/releases%EF%BC%89">https://github.com/Molunerfinn/PicGo/releases）</a></li>
+<li>填入基本配置，设github为默认图床</li>
+</ol>
+<p>​	<img src="https://cdn.jsdelivr.net/gh/mangodog2/ImageHost/img/Snipaste_2023-04-23_19-19-37.jpg" alt="Snipaste_2023-04-23_19-19-37"></p>
+<blockquote>
+<p>Picgo 文档</p>
+<p><a target="_blank" rel="noopener" href="https://picgo.github.io/PicGo-Doc/">https://picgo.github.io/PicGo-Doc/</a></p>
+</blockquote>
+<h1 id="Typora设置"><a href="#Typora设置" class="headerlink" title="Typora设置"></a>Typora设置</h1><ol>
+<li><p>设置自动上传</p>
+<p><img src="https://cdn.jsdelivr.net/gh/mangodog2/ImageHost/img/Snipaste_2023-04-23_19-20-43.jpg" alt="Snipaste_2023-04-23_19-20-43"></p>
+</li>
 </ol>
 <hr>
-<p>弃坑Nexmoe，转Next</p>
-<h1 id="NexT配置指南"><a href="#NexT配置指南" class="headerlink" title="NexT配置指南"></a>NexT配置指南</h1><p><a target="_blank" rel="noopener" href="https://theme-next.iissnan.com/">中文文档</a></p>
-<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/144673816">https://zhuanlan.zhihu.com/p/144673816</a></p>
+<h1 id="图床测试"><a href="#图床测试" class="headerlink" title="图床测试"></a>图床测试</h1><p>放一些自己跑的ai图片</p>
+<p><img src="https://cdn.jsdelivr.net/gh/mangodog2/ImageHost/img/13-40-ace283aa-3cb5-4970-92bd-287000f47440571472a6-7091-4776-99d3-c2ef5b123e59.jpg" alt="13-40-ace283aa-3cb5-4970-92bd-287000f47440571472a6-7091-4776-99d3-c2ef5b123e59"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/mangodog2/ImageHost/img/17-16-ace283aa-3cb5-4970-92bd-287000f474407684b179-c1d0-402e-a76d-812342db5f0e.jpg" alt="17-16-ace283aa-3cb5-4970-92bd-287000f474407684b179-c1d0-402e-a76d-812342db5f0e"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/mangodog2/ImageHost/img/19-56-ace283aa-3cb5-4970-92bd-287000f474406ce4310d-ddc8-4d0f-89e1-d8ef026408ff.jpg" alt="19-56-ace283aa-3cb5-4970-92bd-287000f474406ce4310d-ddc8-4d0f-89e1-d8ef026408ff"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/mangodog2/ImageHost/img/19-21-ace283aa-3cb5-4970-92bd-287000f474409a0d38c1-5888-47d0-a0e0-c814868637be.jpg" alt="19-21-ace283aa-3cb5-4970-92bd-287000f474409a0d38c1-5888-47d0-a0e0-c814868637be"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/mangodog2/ImageHost/img/19-41-ace283aa-3cb5-4970-92bd-287000f47440c4c3d386-07d6-4995-a5e8-eb43df99d553.jpg" alt="19-41-ace283aa-3cb5-4970-92bd-287000f47440c4c3d386-07d6-4995-a5e8-eb43df99d553"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/mangodog2/ImageHost/img/11-36-ace283aa-3cb5-4970-92bd-287000f4744015cccf04-127e-43c4-a3d9-c48922981434.jpg" alt="11-36-ace283aa-3cb5-4970-92bd-287000f4744015cccf04-127e-43c4-a3d9-c48922981434"></p>
 
     </div>
 
@@ -286,20 +307,20 @@
 
     <footer class="post-footer">
           <div class="post-tags">
+              <a href="/tags/Typora/" rel="tag"># Typora</a>
+              <a href="/tags/PicGo/" rel="tag"># PicGo</a>
               <a href="/tags/github/" rel="tag"># github</a>
-              <a href="/tags/%E6%95%99%E7%A8%8B/" rel="tag"># 教程</a>
-              <a href="/tags/hexo/" rel="tag"># hexo</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
+                <a href="/2023/04/18/blog/" rel="prev" title="github+hexo搭建个人博客">
+                  <i class="fa fa-chevron-left"></i> github+hexo搭建个人博客
+                </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2023/04/23/%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/" rel="next" title="github+PicGo+Typora搭建图床">
-                  github+PicGo+Typora搭建图床 <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
     </footer>
